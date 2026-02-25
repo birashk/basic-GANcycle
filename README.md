@@ -56,7 +56,7 @@ dollar_images/
 
 ## Requirements
 Install the required dependencies using pip:
-```bash
+``` bash
 pip install tensorflow numpy matplotlib pillow
 ``` 
 ---
