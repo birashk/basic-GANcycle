@@ -19,7 +19,7 @@ The model is trained on a custom image dataset and gradually learns to produce s
 ---
 
 ## Project Structure
-
+```
 ├── dollar_images/ # Input training images
 
 ├── generated_images2/ # Generated samples during training
@@ -27,7 +27,7 @@ The model is trained on a custom image dataset and gradually learns to produce s
 ├── checkpoints/ # Saved model checkpoints
 
 ├── train_gan.py # GAN training script
-
+```
 
 ---
 
@@ -42,7 +42,7 @@ All training images should be placed inside the `dollar_images/` directory.
   - Normalized to the range [-1, 1]
 
 Example:
-
+```
 dollar_images/
 
 ├── sample1.jpg
@@ -50,7 +50,7 @@ dollar_images/
 ├── sample2.png
 
 ├── sample3.jpg
-
+```
 
 ---
 
